@@ -30,7 +30,8 @@ namespace CalculatorLibrary
             public int Multiply(int a, int b)
             {
                 Debug.WriteLine($"Multiply({a}, {b}) = {a * b}");
-                return a * b;
+                Debug.WriteLine("Что-то поменяла");
+            return a * b;
             }
 
             public double Divide(int a, int b)
