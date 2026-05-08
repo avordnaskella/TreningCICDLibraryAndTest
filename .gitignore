@@ -1,0 +1,14 @@
+## Visual Studio
+bin/
+obj/
+.vs/
+TestResults/
+*.user
+*.suo
+
+## Логи
+*.log
+calculator_debug.log
+
+## Публикация
+publish/
